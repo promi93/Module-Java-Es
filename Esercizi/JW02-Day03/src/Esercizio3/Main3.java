@@ -8,8 +8,9 @@ import org.apache.commons.io.FileUtils;
 public class Main3 {
 
 	public static void main(String[] args) throws IOException {
+
+		scriviPresenze();
 		
-	
 	}
 	
 	public static void scriviPresenze() throws IOException {

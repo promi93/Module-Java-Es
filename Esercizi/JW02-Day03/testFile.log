@@ -1,0 +1,29 @@
+17:28:21.968 [Thread-3] INFO  Stampato primo Thread #
+17:28:21.968 [Thread-1] INFO  Stampato primo Thread *
+17:28:22.981 [Thread-3] INFO  Stampato primo Thread #
+17:28:22.981 [Thread-1] INFO  Stampato primo Thread *
+17:28:23.985 [Thread-1] INFO  Stampato primo Thread *
+17:28:23.985 [Thread-3] INFO  Stampato primo Thread #
+17:28:24.989 [Thread-1] INFO  Stampato primo Thread *
+17:28:24.989 [Thread-3] INFO  Stampato primo Thread #
+17:28:25.990 [Thread-1] INFO  Stampato primo Thread *
+17:28:25.990 [Thread-3] INFO  Stampato primo Thread #
+17:28:26.990 [Thread-1] INFO  Stampato primo Thread *
+17:28:26.990 [Thread-3] INFO  Stampato primo Thread #
+17:28:27.995 [Thread-3] INFO  Stampato primo Thread #
+17:28:27.995 [Thread-1] INFO  Stampato primo Thread *
+17:28:29.000 [Thread-3] INFO  Stampato primo Thread #
+17:28:29.000 [Thread-1] INFO  Stampato primo Thread *
+17:28:30.002 [Thread-3] INFO  Stampato primo Thread #
+17:28:30.002 [Thread-1] INFO  Stampato primo Thread *
+17:28:31.007 [Thread-1] INFO  Stampato primo Thread *
+17:28:31.007 [Thread-3] INFO  Stampato primo Thread #
+17:51:47.170 [Thread-1] INFO  Somma 
+17:51:47.170 [Thread-3] INFO  Somma 
+17:51:47.170 [Thread-5] INFO  Somma 
+17:53:41.248 [Thread-0] INFO  Somma 
+17:53:41.248 [Thread-2] INFO  Somma 
+17:53:41.248 [Thread-1] INFO  Somma 
+17:59:23.209 [Thread-0] INFO  Somma 
+17:59:23.209 [Thread-1] INFO  Somma 
+17:59:23.209 [Thread-2] INFO  Somma 
