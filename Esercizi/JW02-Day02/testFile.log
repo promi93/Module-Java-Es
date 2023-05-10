@@ -1,0 +1,152 @@
+10:39:55.085 [main] INFO  Ciaone!
+10:39:55.093 [main] ERROR Errore
+10:39:55.093 [main] DEBUG Debug
+10:40:20.137 [main] INFO  Ciaone!
+10:40:20.145 [main] ERROR Errore
+10:40:20.145 [main] DEBUG Debug
+10:43:05.589 [main] INFO  Ciaone!
+10:43:05.598 [main] ERROR Errore
+10:43:05.598 [main] DEBUG Debug
+10:52:42.667 [main] INFO  Ciaone!
+10:52:42.675 [main] ERROR Errore
+10:52:42.675 [main] DEBUG Debug
+11:38:10.284 [main] INFO  Ciaone!
+11:38:10.290 [main] ERROR Errore
+11:38:10.290 [main] DEBUG Debug
+11:38:29.457 [main] INFO  Ciaone!
+11:38:29.463 [main] ERROR Errore
+11:38:29.463 [main] DEBUG Debug
+11:38:37.400 [main] INFO  Ciaone!
+11:38:37.407 [main] ERROR Errore
+11:38:37.408 [main] DEBUG Debug
+11:38:38.758 [main] INFO  Ciaone!
+11:38:38.766 [main] ERROR Errore
+11:38:38.766 [main] DEBUG Debug
+11:38:46.327 [main] INFO  Ciaone!
+11:38:46.333 [main] ERROR Errore
+11:38:46.333 [main] DEBUG Debug
+11:40:36.772 [main] INFO  Ciaone!
+11:40:36.779 [main] ERROR Errore
+11:40:36.779 [main] DEBUG Debug
+11:41:07.564 [main] INFO  Ciaone!
+11:41:07.570 [main] ERROR Errore
+11:41:07.571 [main] DEBUG Debug
+11:42:22.883 [main] INFO  Ciaone!
+11:42:22.890 [main] ERROR Errore
+11:42:22.890 [main] DEBUG Debug
+11:44:32.136 [main] INFO  Contains 'Secondo Elemento': true
+11:44:32.146 [main] INFO  Collection isEmpty: false
+11:44:32.147 [main] INFO  Collection size: 3
+11:46:23.930 [main] INFO  Contains 'Secondo Elemento': true
+11:46:23.936 [main] INFO  Collection isEmpty: false
+11:46:23.936 [main] INFO  Collection size: 3
+11:46:23.937 [main] INFO  Primo Elemento
+11:46:23.937 [main] INFO  Secondo Elemento
+11:46:23.937 [main] INFO  Terzo Elemento
+11:56:49.771 [main] INFO  Contains 'Secondo Elemento': true
+11:56:49.779 [main] INFO  Collection isEmpty: false
+11:56:49.779 [main] INFO  Collection size: 3
+11:56:49.780 [main] INFO  Primo Elemento
+11:56:49.781 [main] INFO  Secondo Elemento
+11:56:49.781 [main] INFO  Terzo Elemento
+11:57:06.170 [main] INFO  Contains 'Secondo Elemento': true
+11:57:06.177 [main] INFO  Collection isEmpty: false
+11:57:06.177 [main] INFO  Collection size: 3
+11:57:06.178 [main] INFO  Primo Elemento
+11:57:06.179 [main] INFO  Secondo Elemento
+11:57:06.179 [main] INFO  Terzo Elemento
+11:57:06.179 [main] INFO  Contains 'Secondo Elemento': true
+11:57:06.179 [main] INFO  Collection isEmpty: false
+11:57:06.179 [main] INFO  Collection size: 3
+11:57:06.180 [main] INFO  Primo Elemento
+11:57:06.180 [main] INFO  Secondo Elemento
+11:57:06.180 [main] INFO  Terzo Elemento
+11:57:35.188 [main] INFO  Contains 'Secondo Elemento': true
+11:57:35.195 [main] INFO  Collection isEmpty: false
+11:57:35.195 [main] INFO  Collection size: 3
+11:57:35.196 [main] INFO  Primo Elemento
+11:57:35.196 [main] INFO  Secondo Elemento
+11:57:35.196 [main] INFO  Terzo Elemento
+11:58:19.363 [main] INFO  Contains 'Secondo Elemento List': true
+11:58:19.371 [main] INFO  Collection isEmpty List: false
+11:58:19.371 [main] INFO  Collection size List: 3
+11:58:19.372 [main] INFO  Primo Elemento List
+11:58:19.373 [main] INFO  Secondo Elemento List
+11:58:19.373 [main] INFO  Terzo Elemento List
+11:59:13.656 [main] INFO  Contains 'Secondo Elemento List': true
+11:59:13.663 [main] INFO  Collection isEmpty List: false
+11:59:13.663 [main] INFO  Collection size List: 3
+12:02:30.730 [main] INFO  Contains 'Secondo Elemento List': true
+12:02:30.738 [main] INFO  Collection isEmpty List: false
+12:02:30.738 [main] INFO  Collection size List: 3
+12:11:38.100 [main] INFO  Contains 'Secondo Elemento Set': true
+12:11:38.107 [main] INFO  Collection isEmpty Set: false
+12:11:38.107 [main] INFO  Collection size Set: 3
+12:11:51.466 [main] INFO  Contains 'Secondo Elemento Set': true
+12:11:51.473 [main] INFO  Collection isEmpty Set: false
+12:11:51.473 [main] INFO  Collection size Set: 3
+12:12:04.641 [main] INFO  Contains 'Secondo Elemento Set': true
+12:12:04.648 [main] INFO  Collection isEmpty Set: false
+12:12:04.649 [main] INFO  Collection size Set: 3
+12:12:06.331 [main] INFO  Contains 'Secondo Elemento Set': true
+12:12:06.337 [main] INFO  Collection isEmpty Set: false
+12:12:06.337 [main] INFO  Collection size Set: 3
+12:12:07.587 [main] INFO  Contains 'Secondo Elemento Set': true
+12:12:07.593 [main] INFO  Collection isEmpty Set: false
+12:12:07.593 [main] INFO  Collection size Set: 3
+12:12:08.751 [main] INFO  Contains 'Secondo Elemento Set': true
+12:12:08.759 [main] INFO  Collection isEmpty Set: false
+12:12:08.759 [main] INFO  Collection size Set: 3
+12:12:08.969 [main] INFO  Contains 'Secondo Elemento Set': true
+12:12:08.977 [main] INFO  Collection isEmpty Set: false
+12:12:08.977 [main] INFO  Collection size Set: 3
+12:12:10.244 [main] INFO  Contains 'Secondo Elemento Set': true
+12:12:10.244 [main] INFO  Contains 'Secondo Elemento Set': true
+12:12:10.251 [main] INFO  Collection isEmpty Set: false
+12:12:10.251 [main] INFO  Collection size Set: 3
+12:12:10.251 [main] INFO  Collection isEmpty Set: false
+12:12:10.251 [main] INFO  Collection size Set: 3
+12:29:21.037 [main] INFO  Contains 'Secondo Elemento Set': false
+12:29:21.043 [main] INFO  Collection isEmpty Set: false
+12:29:21.043 [main] INFO  Collection size Set: 2
+12:37:34.825 [main] INFO  Contains 'Secondo Elemento Set': false
+12:37:34.831 [main] INFO  Collection isEmpty Map: false
+12:37:34.831 [main] INFO  Collection size Map: 2
+12:37:34.832 [main] INFO  A1
+12:37:34.832 [main] INFO  A2
+12:37:50.910 [main] INFO  Contains 'Secondo Elemento Set': false
+12:37:50.916 [main] INFO  Collection isEmpty Map: false
+12:37:50.916 [main] INFO  Collection size Map: 3
+12:37:50.917 [main] INFO  A1
+12:37:50.918 [main] INFO  A2
+12:37:50.918 [main] INFO  A3
+12:44:16.024 [main] INFO  Contains 'Secondo Elemento List': false
+12:44:16.033 [main] INFO  Collection isEmpty List: false
+12:44:16.033 [main] INFO  Collection size List: 4
+12:44:43.159 [main] INFO  Contains 'Secondo Elemento List': false
+12:44:43.166 [main] INFO  Collection isEmpty List: false
+12:44:43.166 [main] INFO  Collection size List: 3
+12:45:46.618 [main] INFO  Contains 'Secondo Elemento List': false
+12:45:46.624 [main] INFO  Collection isEmpty List: true
+12:45:46.624 [main] INFO  Collection size List: 0
+12:45:55.383 [main] INFO  Contains 'Secondo Elemento List': false
+12:45:55.389 [main] INFO  Collection isEmpty List: false
+12:45:55.390 [main] INFO  Collection size List: 3
+12:46:31.196 [main] INFO  Contains 'Secondo Elemento List': false
+12:46:31.203 [main] INFO  Collection isEmpty List: false
+12:46:31.203 [main] INFO  Collection size List: 2
+12:46:59.114 [main] INFO  Contains 'Secondo Elemento Set': false
+12:46:59.121 [main] INFO  Collection isEmpty Map: false
+12:46:59.121 [main] INFO  Collection size Map: 3
+12:46:59.122 [main] INFO  A1
+12:46:59.122 [main] INFO  A2
+12:46:59.122 [main] INFO  A3
+12:47:10.723 [main] INFO  Contains 'Secondo Elemento List': false
+12:47:10.729 [main] INFO  Collection isEmpty List: false
+12:47:10.729 [main] INFO  Collection size List: 3
+12:48:49.555 [main] INFO  Contains 'Secondo Elemento Set': true
+12:48:49.562 [main] INFO  Collection isEmpty Set: false
+12:48:49.562 [main] INFO  Collection size Set: 3
+14:47:13.143 [main] INFO  Contains 'Secondo Elemento List': false
+14:47:13.154 [main] INFO  Collection isEmpty List: false
+14:47:13.154 [main] INFO  Collection size List: 3
