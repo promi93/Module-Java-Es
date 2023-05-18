@@ -7,21 +7,30 @@ import org.apache.commons.io.FileUtils;
 
 public class Main3 {
 
-	public static void main(String[] args) throws IOException {
 
-		scriviPresenze();
+
+	public static void main(String[] args) {
+		
+
+		try {
+			leggiRegistro();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 		
 	}
 	
 	public static void scriviPresenze() throws IOException {
-		String presenze = "";
-		File file = new File("Registro /test.txt");
+		String presenze = "Mario Rossi";
+		File file = new File("Presenze/test.txt");
 		FileUtils.writeStringToFile(file, presenze, "UTF-8"); 
 	}
 	
 	public static void leggiRegistro() throws IOException {
-		File file = new File("Registro/test.txt");
-		String read = FileUtils.readFileToString(file, "UFT-8");
+		File file = new File("Presenze/test.txt");
+		String read = FileUtils.readFileToString(file, "UTF-8");
 		System.out.println(read);
 		
 	}
