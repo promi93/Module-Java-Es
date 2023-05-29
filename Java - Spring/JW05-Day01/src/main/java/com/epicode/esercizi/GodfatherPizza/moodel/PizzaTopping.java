@@ -1,0 +1,18 @@
+package com.epicode.esercizi.GodfatherPizza.moodel;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+@ToString
+public class PizzaTopping extends FoodItem {
+
+	private Pizza pizza;
+	
+}
