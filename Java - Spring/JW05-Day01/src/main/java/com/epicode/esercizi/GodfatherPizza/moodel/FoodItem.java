@@ -13,6 +13,7 @@ public abstract class FoodItem {
 	protected String name;
 	protected double price;
 	protected double calories;
+	
 
 	
 	public String getMenuItemLine() {

@@ -1,0 +1,185 @@
+18:15:36.387 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 30065 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+18:15:36.392 - No active profile set, falling back to 1 default profile: "default"
+18:15:36.495 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:15:37.536 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'menu' defined in class path resource [com/epicode/esercizi/GodfatherPizza/configuration/MenuConfiguration.class]: Failed to instantiate [com.epicode.esercizi.GodfatherPizza.moodel.Menu]: Factory method 'menu' threw exception with message: Error creating bean with name 'pizzaMargherita' defined in class path resource [com/epicode/esercizi/GodfatherPizza/configuration/MenuConfiguration.class]: Failed to instantiate [com.epicode.esercizi.GodfatherPizza.moodel.PizzaMargherita]: Factory method 'pizzaMargherita' threw exception with message: Unresolved compilation problem: 
+	The constructor FoodItem(String, double, double) is undefined
+
+18:15:37.573 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+18:15:37.622 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'menu' defined in class path resource [com/epicode/esercizi/GodfatherPizza/configuration/MenuConfiguration.class]: Failed to instantiate [com.epicode.esercizi.GodfatherPizza.moodel.Menu]: Factory method 'menu' threw exception with message: Error creating bean with name 'pizzaMargherita' defined in class path resource [com/epicode/esercizi/GodfatherPizza/configuration/MenuConfiguration.class]: Failed to instantiate [com.epicode.esercizi.GodfatherPizza.moodel.PizzaMargherita]: Factory method 'pizzaMargherita' threw exception with message: Unresolved compilation problem: 
+	The constructor FoodItem(String, double, double) is undefined
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at com.epicode.esercizi.GodfatherPizza.GodfatherPizzaApplication.main(GodfatherPizzaApplication.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.epicode.esercizi.GodfatherPizza.moodel.Menu]: Factory method 'menu' threw exception with message: Error creating bean with name 'pizzaMargherita' defined in class path resource [com/epicode/esercizi/GodfatherPizza/configuration/MenuConfiguration.class]: Failed to instantiate [com.epicode.esercizi.GodfatherPizza.moodel.PizzaMargherita]: Factory method 'pizzaMargherita' threw exception with message: Unresolved compilation problem: 
+	The constructor FoodItem(String, double, double) is undefined
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pizzaMargherita' defined in class path resource [com/epicode/esercizi/GodfatherPizza/configuration/MenuConfiguration.class]: Failed to instantiate [com.epicode.esercizi.GodfatherPizza.moodel.PizzaMargherita]: Factory method 'pizzaMargherita' threw exception with message: Unresolved compilation problem: 
+	The constructor FoodItem(String, double, double) is undefined
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:362)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:334)
+	at com.epicode.esercizi.GodfatherPizza.configuration.MenuConfiguration$$SpringCGLIB$$0.pizzaMargherita(<generated>)
+	at com.epicode.esercizi.GodfatherPizza.configuration.MenuConfiguration.menu(MenuConfiguration.java:37)
+	at com.epicode.esercizi.GodfatherPizza.configuration.MenuConfiguration$$SpringCGLIB$$0.CGLIB$menu$10(<generated>)
+	at com.epicode.esercizi.GodfatherPizza.configuration.MenuConfiguration$$SpringCGLIB$$2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.epicode.esercizi.GodfatherPizza.configuration.MenuConfiguration$$SpringCGLIB$$0.menu(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.epicode.esercizi.GodfatherPizza.moodel.PizzaMargherita]: Factory method 'pizzaMargherita' threw exception with message: Unresolved compilation problem: 
+	The constructor FoodItem(String, double, double) is undefined
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	... 47 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The constructor FoodItem(String, double, double) is undefined
+
+	at com.epicode.esercizi.GodfatherPizza.moodel.Pizza.<init>(Pizza.java:12)
+	at com.epicode.esercizi.GodfatherPizza.moodel.PizzaMargherita.<init>(PizzaMargherita.java:6)
+	at com.epicode.esercizi.GodfatherPizza.configuration.MenuConfiguration.pizzaMargherita(MenuConfiguration.java:63)
+	at com.epicode.esercizi.GodfatherPizza.configuration.MenuConfiguration$$SpringCGLIB$$0.CGLIB$pizzaMargherita$0(<generated>)
+	at com.epicode.esercizi.GodfatherPizza.configuration.MenuConfiguration$$SpringCGLIB$$2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.epicode.esercizi.GodfatherPizza.configuration.MenuConfiguration$$SpringCGLIB$$0.pizzaMargherita(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 48 common frames omitted
+18:16:13.729 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 30078 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+18:16:13.733 - No active profile set, falling back to 1 default profile: "default"
+18:16:13.833 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:16:14.916 - LiveReload server is running on port 35729
+18:16:14.960 - Started GodfatherPizzaApplication in 1.846 seconds (process running for 2.721)
+18:16:15.030 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+18:16:15.225 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'ordine' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'ordine' in your configuration.
+
+18:17:30.508 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 30091 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+18:17:30.511 - No active profile set, falling back to 1 default profile: "default"
+18:17:30.610 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:17:31.640 - LiveReload server is running on port 35729
+18:17:31.707 - Started GodfatherPizzaApplication in 1.86 seconds (process running for 2.732)
+18:17:31.803 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+18:17:31.842 - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:773)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at com.epicode.esercizi.GodfatherPizza.GodfatherPizzaApplication.main(GodfatherPizzaApplication.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineTavolo': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "${tavolo.coperto.costo}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:344)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1156)
+	at com.epicode.esercizi.GodfatherPizza.runner.RunnerPizzeria.configWith_BeanOrdine(RunnerPizzeria.java:58)
+	at com.epicode.esercizi.GodfatherPizza.runner.RunnerPizzeria.run(RunnerPizzeria.java:25)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
+	... 10 common frames omitted
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "${tavolo.coperto.costo}"
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:79)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1365)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	... 22 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "${tavolo.coperto.costo}"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:654)
+	at java.base/java.lang.Integer.valueOf(Integer.java:999)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:203)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:425)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:398)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	... 25 common frames omitted
+18:18:38.095 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 30102 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+18:18:38.099 - No active profile set, falling back to 1 default profile: "default"
+18:18:38.211 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:18:39.230 - LiveReload server is running on port 35729
+18:18:39.293 - Started GodfatherPizzaApplication in 1.811 seconds (process running for 2.634)
+18:19:14.519 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 30106 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+18:19:14.523 - No active profile set, falling back to 1 default profile: "default"
+18:19:14.620 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:19:15.660 - LiveReload server is running on port 35729
+18:19:15.723 - Started GodfatherPizzaApplication in 1.859 seconds (process running for 2.791)
+18:19:32.788 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 30109 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+18:19:32.792 - No active profile set, falling back to 1 default profile: "default"
+18:19:32.894 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:19:33.923 - LiveReload server is running on port 35729
+18:19:33.979 - Started GodfatherPizzaApplication in 1.826 seconds (process running for 2.813)
