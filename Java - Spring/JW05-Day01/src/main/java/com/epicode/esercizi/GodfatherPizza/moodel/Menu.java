@@ -12,7 +12,7 @@ public class Menu {
 	private List<Pizza> menuPizza = new ArrayList<Pizza>();
 	private List<Drink> menuDrink = new ArrayList<Drink>();
 	private List<PizzaTopping> menuTopping = new ArrayList<PizzaTopping>();
-	private List<Gift> menuGift = new ArrayList<Gift>();
+	private List<Franchise> menuGift = new ArrayList<Franchise>();
 	
 	
 }

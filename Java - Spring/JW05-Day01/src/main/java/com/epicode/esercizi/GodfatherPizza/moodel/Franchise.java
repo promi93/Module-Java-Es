@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data // si può utilizzare al posto di scrivere singolarmente Gettere e Setter
 @Builder
-public class Gift {
+public class Franchise {
 
 	private String name;
 	private double price;
