@@ -23,10 +23,15 @@ public class GodfatherPizzaApplication {
 		// Recupero il Bean Menu
 		Menu menu = (Menu) appContext.getBean("menu");
 		System.out.println("****** Menu ******");
-		System.out.println("PIZZA");
+		System.out.println("\nPIZZAS:");
 		menu.getMenuPizza().forEach(p -> System.out.println(p.getMenuItemLine()));
-		System.out.println("DRINK");
-		menu.getMenuPizza().forEach(d -> System.out.println(d.getMenuItemLine()));
+		System.out.println("\nTOPPINGS PIZZAS:");
+		menu.getMenuTopping().forEach(t -> System.out.println(t.getMenuItemLine()));
+		System.out.println("\nDRINKS:");
+		menu.getMenuDrink().forEach(d -> System.out.println(d.getMenuItemLine()));
+		System.out.println("\nFRANCHISE:");
+		menu.getMenuFranchise().forEach(f -> System.out.println(f.getMenuItemLine()));
+		
 		
 		appContext.close();
 	}
