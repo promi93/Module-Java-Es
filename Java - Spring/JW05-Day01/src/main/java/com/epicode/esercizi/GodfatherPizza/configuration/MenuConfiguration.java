@@ -27,6 +27,10 @@ public class MenuConfiguration {
 		 m.getMenuPizza().add(pizzaHawaian());
 		 m.getMenuPizza().add(pizzaSalami());
 		 m.getMenuPizza().add(pizzaFamilySize(pizzaMargherita()));
+		 
+		 m.getMenuDrink().add(drinkLemonade());
+		 m.getMenuDrink().add(drinkWater());
+		 
 		return m;
 	}
 	
@@ -49,6 +53,16 @@ public class MenuConfiguration {
 	@Bean
 	public PizzaFamilySize pizzaFamilySize(Pizza p) {
 		return new PizzaFamilySize(p);
+	}
+	
+	@Bean
+	public DrinkLemonade drinkLemonade() {
+		return new DrinkLemonade();
+	}
+	
+	@Bean
+	public DrinkWater drinkWater() {
+		return new DrinkLemonade();
 	}
 	
 	
