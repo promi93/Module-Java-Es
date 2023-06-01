@@ -11,7 +11,7 @@ import com.epicode.esercizi.GodfatherPizza.configuration.MenuConfiguration;
 public class GodfatherPizzaApplication {
 
 	public static void main(String[] args) {
-		// Creo un Container dove utilizzare i Bean sulla base del file di configurazione
+		
 		SpringApplication.run(GodfatherPizzaApplication.class, args);
 		
 		

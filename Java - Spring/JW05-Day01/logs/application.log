@@ -1,21 +1,54 @@
-18:15:36.387 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 30065 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
-18:15:36.392 - No active profile set, falling back to 1 default profile: "default"
-18:15:36.495 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-18:15:37.536 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'menu' defined in class path resource [com/epicode/esercizi/GodfatherPizza/configuration/MenuConfiguration.class]: Failed to instantiate [com.epicode.esercizi.GodfatherPizza.moodel.Menu]: Factory method 'menu' threw exception with message: Error creating bean with name 'pizzaMargherita' defined in class path resource [com/epicode/esercizi/GodfatherPizza/configuration/MenuConfiguration.class]: Failed to instantiate [com.epicode.esercizi.GodfatherPizza.moodel.PizzaMargherita]: Factory method 'pizzaMargherita' threw exception with message: Unresolved compilation problem: 
-	The constructor FoodItem(String, double, double) is undefined
-
-18:15:37.573 - 
+15:08:03.469 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 5132 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+15:08:03.479 - No active profile set, falling back to 1 default profile: "default"
+15:08:03.537 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+15:08:04.200 - LiveReload server is running on port 35729
+15:08:04.231 - Started GodfatherPizzaApplication in 1.304 seconds (process running for 1.906)
+15:08:18.400 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 5135 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+15:08:18.403 - No active profile set, falling back to 1 default profile: "default"
+15:08:18.455 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+15:08:19.104 - LiveReload server is running on port 35729
+15:08:19.131 - Started GodfatherPizzaApplication in 1.154 seconds (process running for 1.657)
+15:09:36.448 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 5145 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+15:09:36.451 - No active profile set, falling back to 1 default profile: "default"
+15:09:36.503 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+15:09:37.180 - LiveReload server is running on port 35729
+15:09:37.208 - Started GodfatherPizzaApplication in 1.205 seconds (process running for 1.702)
+15:31:31.441 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 5404 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+15:31:31.444 - No active profile set, falling back to 1 default profile: "default"
+15:31:31.498 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+15:31:31.776 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'tavolo' defined in class path resource [com/epicode/esercizi/GodfatherPizza/configuration/TavoloConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=tavoloConfiguration; factoryMethodName=tavolo; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/epicode/esercizi/GodfatherPizza/configuration/TavoloConfiguration.class]] for bean 'tavolo' since there is already [Root bean: class [null]; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=ordineConfiguration; factoryMethodName=tavolo; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/epicode/esercizi/GodfatherPizza/configuration/OrdineConfiguration.class]] bound.
+15:31:31.796 - 
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-18:15:37.622 - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'menu' defined in class path resource [com/epicode/esercizi/GodfatherPizza/configuration/MenuConfiguration.class]: Failed to instantiate [com.epicode.esercizi.GodfatherPizza.moodel.Menu]: Factory method 'menu' threw exception with message: Error creating bean with name 'pizzaMargherita' defined in class path resource [com/epicode/esercizi/GodfatherPizza/configuration/MenuConfiguration.class]: Failed to instantiate [com.epicode.esercizi.GodfatherPizza.moodel.PizzaMargherita]: Factory method 'pizzaMargherita' threw exception with message: Unresolved compilation problem: 
-	The constructor FoodItem(String, double, double) is undefined
+15:31:31.825 - 
 
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'tavolo', defined in class path resource [com/epicode/esercizi/GodfatherPizza/configuration/TavoloConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [com/epicode/esercizi/GodfatherPizza/configuration/OrdineConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+16:01:18.033 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 5709 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:01:18.041 - No active profile set, falling back to 1 default profile: "default"
+16:01:18.104 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:01:18.705 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'double'; For input string: "1.5;"
+16:01:18.717 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:01:18.743 - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'double'; For input string: "1.5;"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
@@ -35,99 +68,50 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.epicode.esercizi.GodfatherPizza.moodel.Menu]: Factory method 'menu' threw exception with message: Error creating bean with name 'pizzaMargherita' defined in class path resource [com/epicode/esercizi/GodfatherPizza/configuration/MenuConfiguration.class]: Failed to instantiate [com.epicode.esercizi.GodfatherPizza.moodel.PizzaMargherita]: Factory method 'pizzaMargherita' threw exception with message: Unresolved compilation problem: 
-	The constructor FoodItem(String, double, double) is undefined
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'double'; For input string: "1.5;"
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:79)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1365)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	... 24 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "1.5;"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:651)
+	at java.base/java.lang.Double.valueOf(Double.java:614)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:215)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:425)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:398)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	... 27 common frames omitted
+16:01:49.710 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 5717 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:01:49.712 - No active profile set, falling back to 1 default profile: "default"
+16:01:49.768 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:01:50.294 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'double'; For input string: "1.5;"
+16:01:50.306 - 
 
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
-	... 23 common frames omitted
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pizzaMargherita' defined in class path resource [com/epicode/esercizi/GodfatherPizza/configuration/MenuConfiguration.class]: Failed to instantiate [com.epicode.esercizi.GodfatherPizza.moodel.PizzaMargherita]: Factory method 'pizzaMargherita' threw exception with message: Unresolved compilation problem: 
-	The constructor FoodItem(String, double, double) is undefined
-
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:01:50.330 - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'double'; For input string: "1.5;"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:362)
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:334)
-	at com.epicode.esercizi.GodfatherPizza.configuration.MenuConfiguration$$SpringCGLIB$$0.pizzaMargherita(<generated>)
-	at com.epicode.esercizi.GodfatherPizza.configuration.MenuConfiguration.menu(MenuConfiguration.java:37)
-	at com.epicode.esercizi.GodfatherPizza.configuration.MenuConfiguration$$SpringCGLIB$$0.CGLIB$menu$10(<generated>)
-	at com.epicode.esercizi.GodfatherPizza.configuration.MenuConfiguration$$SpringCGLIB$$2.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
-	at com.epicode.esercizi.GodfatherPizza.configuration.MenuConfiguration$$SpringCGLIB$$0.menu(<generated>)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
-	... 24 common frames omitted
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.epicode.esercizi.GodfatherPizza.moodel.PizzaMargherita]: Factory method 'pizzaMargherita' threw exception with message: Unresolved compilation problem: 
-	The constructor FoodItem(String, double, double) is undefined
-
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
-	... 47 common frames omitted
-Caused by: java.lang.Error: Unresolved compilation problem: 
-	The constructor FoodItem(String, double, double) is undefined
-
-	at com.epicode.esercizi.GodfatherPizza.moodel.Pizza.<init>(Pizza.java:12)
-	at com.epicode.esercizi.GodfatherPizza.moodel.PizzaMargherita.<init>(PizzaMargherita.java:6)
-	at com.epicode.esercizi.GodfatherPizza.configuration.MenuConfiguration.pizzaMargherita(MenuConfiguration.java:63)
-	at com.epicode.esercizi.GodfatherPizza.configuration.MenuConfiguration$$SpringCGLIB$$0.CGLIB$pizzaMargherita$0(<generated>)
-	at com.epicode.esercizi.GodfatherPizza.configuration.MenuConfiguration$$SpringCGLIB$$2.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
-	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
-	at com.epicode.esercizi.GodfatherPizza.configuration.MenuConfiguration$$SpringCGLIB$$0.pizzaMargherita(<generated>)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
-	... 48 common frames omitted
-18:16:13.729 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 30078 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
-18:16:13.733 - No active profile set, falling back to 1 default profile: "default"
-18:16:13.833 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-18:16:14.916 - LiveReload server is running on port 35729
-18:16:14.960 - Started GodfatherPizzaApplication in 1.846 seconds (process running for 2.721)
-18:16:15.030 - 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-18:16:15.225 - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-A component required a bean named 'ordine' that could not be found.
-
-
-Action:
-
-Consider defining a bean named 'ordine' in your configuration.
-
-18:17:30.508 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 30091 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
-18:17:30.511 - No active profile set, falling back to 1 default profile: "default"
-18:17:30.610 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-18:17:31.640 - LiveReload server is running on port 35729
-18:17:31.707 - Started GodfatherPizzaApplication in 1.86 seconds (process running for 2.732)
-18:17:31.803 - 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-18:17:31.842 - Application run failed
-java.lang.IllegalStateException: Failed to execute CommandLineRunner
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:773)
-	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:754)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
 	at com.epicode.esercizi.GodfatherPizza.GodfatherPizzaApplication.main(GodfatherPizzaApplication.java:15)
@@ -136,7 +120,220 @@ java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineTavolo': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "${tavolo.coperto.costo}"
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'double'; For input string: "1.5;"
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:79)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1365)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	... 24 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "1.5;"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:651)
+	at java.base/java.lang.Double.valueOf(Double.java:614)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:215)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:425)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:398)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	... 27 common frames omitted
+16:01:59.787 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 5719 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:01:59.790 - No active profile set, falling back to 1 default profile: "default"
+16:01:59.842 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:02:00.565 - LiveReload server is running on port 35729
+16:02:00.586 - Started GodfatherPizzaApplication in 1.237 seconds (process running for 1.751)
+16:02:00.611 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:02:00.727 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'Ordine' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'Ordine' in your configuration.
+
+16:04:03.519 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 5746 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:04:03.521 - No active profile set, falling back to 1 default profile: "default"
+16:04:03.574 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:04:04.260 - LiveReload server is running on port 35729
+16:04:04.282 - Started GodfatherPizzaApplication in 1.218 seconds (process running for 1.715)
+16:04:04.311 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:04:04.422 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'Ordine' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'Ordine' in your configuration.
+
+16:05:31.955 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 5758 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:05:31.958 - No active profile set, falling back to 1 default profile: "default"
+16:05:32.018 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:05:32.307 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'ordine' defined in class path resource [com/epicode/esercizi/GodfatherPizza/configuration/OrdineConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=prototype; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=ordineConfiguration; factoryMethodName=ordine; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in class path resource [com/epicode/esercizi/GodfatherPizza/configuration/OrdineConfiguration.class]] for bean 'ordine' since there is already [Generic bean: class [com.epicode.esercizi.GodfatherPizza.moodel.Ordine]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes/com/epicode/esercizi/GodfatherPizza/moodel/Ordine.class]] bound.
+16:05:32.328 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:05:32.355 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'ordine', defined in class path resource [com/epicode/esercizi/GodfatherPizza/configuration/OrdineConfiguration.class], could not be registered. A bean with that name has already been defined in file [/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes/com/epicode/esercizi/GodfatherPizza/moodel/Ordine.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+16:05:58.679 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 5765 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:05:58.682 - No active profile set, falling back to 1 default profile: "default"
+16:05:58.741 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:05:59.413 - LiveReload server is running on port 35729
+16:05:59.433 - Started GodfatherPizzaApplication in 1.231 seconds (process running for 1.784)
+16:05:59.462 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:05:59.573 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'Ordine' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'Ordine' in your configuration.
+
+16:06:42.298 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 5771 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:06:42.300 - No active profile set, falling back to 1 default profile: "default"
+16:06:42.360 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:06:43.073 - LiveReload server is running on port 35729
+16:06:43.093 - Started GodfatherPizzaApplication in 1.285 seconds (process running for 1.844)
+16:06:43.123 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:06:43.241 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'Ordine' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'Ordine' in your configuration.
+
+16:09:15.248 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 5799 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:09:15.251 - No active profile set, falling back to 1 default profile: "default"
+16:09:15.312 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:09:16.026 - LiveReload server is running on port 35729
+16:09:16.047 - Started GodfatherPizzaApplication in 1.295 seconds (process running for 1.851)
+16:09:16.079 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:09:16.193 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'Ordine' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'Ordine' in your configuration.
+
+16:12:32.117 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 5835 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:12:32.120 - No active profile set, falling back to 1 default profile: "default"
+16:12:32.174 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:12:32.833 - LiveReload server is running on port 35729
+16:12:32.851 - Started GodfatherPizzaApplication in 1.181 seconds (process running for 1.701)
+16:12:32.879 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:12:32.981 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'Ordine' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'Ordine' in your configuration.
+
+16:17:42.232 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 5923 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:17:42.234 - No active profile set, falling back to 1 default profile: "default"
+16:17:42.289 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:17:42.898 - LiveReload server is running on port 35729
+16:17:42.915 - Started GodfatherPizzaApplication in 1.121 seconds (process running for 1.655)
+16:17:42.941 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:17:43.038 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'Ordine' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'Ordine' in your configuration.
+
+16:20:17.953 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 5956 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:20:17.956 - No active profile set, falling back to 1 default profile: "default"
+16:20:18.008 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:20:18.625 - LiveReload server is running on port 35729
+16:20:18.643 - Started GodfatherPizzaApplication in 1.133 seconds (process running for 1.651)
+16:25:28.931 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 6009 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:25:28.934 - No active profile set, falling back to 1 default profile: "default"
+16:25:28.985 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:25:29.495 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
+16:25:29.507 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:25:29.527 - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
@@ -144,42 +341,527 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:344)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1156)
-	at com.epicode.esercizi.GodfatherPizza.runner.RunnerPizzeria.configWith_BeanOrdine(RunnerPizzeria.java:58)
-	at com.epicode.esercizi.GodfatherPizza.runner.RunnerPizzeria.run(RunnerPizzeria.java:25)
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
-	... 10 common frames omitted
-Caused by: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "${tavolo.coperto.costo}"
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at com.epicode.esercizi.GodfatherPizza.GodfatherPizzaApplication.main(GodfatherPizzaApplication.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
 	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:79)
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1365)
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
-	... 22 common frames omitted
-Caused by: java.lang.NumberFormatException: For input string: "${tavolo.coperto.costo}"
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:654)
-	at java.base/java.lang.Integer.valueOf(Integer.java:999)
-	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:203)
+	... 24 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "1.5;"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:651)
+	at java.base/java.lang.Double.valueOf(Double.java:614)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:215)
 	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
 	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:425)
 	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:398)
 	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
 	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
-	... 25 common frames omitted
-18:18:38.095 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 30102 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
-18:18:38.099 - No active profile set, falling back to 1 default profile: "default"
-18:18:38.211 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-18:18:39.230 - LiveReload server is running on port 35729
-18:18:39.293 - Started GodfatherPizzaApplication in 1.811 seconds (process running for 2.634)
-18:19:14.519 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 30106 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
-18:19:14.523 - No active profile set, falling back to 1 default profile: "default"
-18:19:14.620 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-18:19:15.660 - LiveReload server is running on port 35729
-18:19:15.723 - Started GodfatherPizzaApplication in 1.859 seconds (process running for 2.791)
-18:19:32.788 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 30109 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
-18:19:32.792 - No active profile set, falling back to 1 default profile: "default"
-18:19:32.894 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-18:19:33.923 - LiveReload server is running on port 35729
-18:19:33.979 - Started GodfatherPizzaApplication in 1.826 seconds (process running for 2.813)
+	... 27 common frames omitted
+16:25:57.572 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 6012 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:25:57.575 - No active profile set, falling back to 1 default profile: "default"
+16:25:57.633 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:25:58.172 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
+16:25:58.184 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:25:58.205 - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at com.epicode.esercizi.GodfatherPizza.GodfatherPizzaApplication.main(GodfatherPizzaApplication.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:79)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1365)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	... 24 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "1.5;"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:651)
+	at java.base/java.lang.Double.valueOf(Double.java:614)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:215)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:425)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:398)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	... 27 common frames omitted
+16:27:54.736 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 6040 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:27:54.745 - No active profile set, falling back to 1 default profile: "default"
+16:27:54.797 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:27:55.363 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "0.5;"
+16:27:55.376 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:27:55.402 - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "0.5;"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at com.epicode.esercizi.GodfatherPizza.GodfatherPizzaApplication.main(GodfatherPizzaApplication.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "0.5;"
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:79)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1365)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	... 24 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "0.5;"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:651)
+	at java.base/java.lang.Double.valueOf(Double.java:614)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:215)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:425)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:398)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	... 27 common frames omitted
+16:28:32.395 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 6051 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:28:32.397 - No active profile set, falling back to 1 default profile: "default"
+16:28:32.453 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:28:32.983 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "0.5;"
+16:28:32.995 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:28:33.016 - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "0.5;"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at com.epicode.esercizi.GodfatherPizza.GodfatherPizzaApplication.main(GodfatherPizzaApplication.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "0.5;"
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:79)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1365)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	... 24 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "0.5;"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:651)
+	at java.base/java.lang.Double.valueOf(Double.java:614)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:215)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:425)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:398)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	... 27 common frames omitted
+16:30:33.524 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 6083 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:30:33.527 - No active profile set, falling back to 1 default profile: "default"
+16:30:33.579 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:30:34.081 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
+16:30:34.092 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:30:34.112 - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at com.epicode.esercizi.GodfatherPizza.GodfatherPizzaApplication.main(GodfatherPizzaApplication.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:79)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1365)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	... 24 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "1.5;"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:651)
+	at java.base/java.lang.Double.valueOf(Double.java:614)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:215)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:425)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:398)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	... 27 common frames omitted
+16:30:51.754 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 6086 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:30:51.756 - No active profile set, falling back to 1 default profile: "default"
+16:30:51.807 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:30:52.337 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
+16:30:52.349 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:30:52.371 - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at com.epicode.esercizi.GodfatherPizza.GodfatherPizzaApplication.main(GodfatherPizzaApplication.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:79)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1365)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	... 24 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "1.5;"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:651)
+	at java.base/java.lang.Double.valueOf(Double.java:614)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:215)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:425)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:398)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	... 27 common frames omitted
+16:31:27.107 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 6091 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:31:27.110 - No active profile set, falling back to 1 default profile: "default"
+16:31:27.163 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:31:27.665 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
+16:31:27.676 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:31:27.696 - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at com.epicode.esercizi.GodfatherPizza.GodfatherPizzaApplication.main(GodfatherPizzaApplication.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:79)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1365)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	... 24 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "1.5;"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:651)
+	at java.base/java.lang.Double.valueOf(Double.java:614)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:215)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:425)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:398)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	... 27 common frames omitted
+16:32:08.045 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 6103 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:32:08.048 - No active profile set, falling back to 1 default profile: "default"
+16:32:08.103 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:32:08.645 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
+16:32:08.659 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:32:08.681 - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at com.epicode.esercizi.GodfatherPizza.GodfatherPizzaApplication.main(GodfatherPizzaApplication.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:79)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1365)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	... 24 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "1.5;"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:651)
+	at java.base/java.lang.Double.valueOf(Double.java:614)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:215)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:425)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:398)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	... 27 common frames omitted
+16:32:46.901 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 6111 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:32:46.904 - No active profile set, falling back to 1 default profile: "default"
+16:32:46.957 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:32:47.508 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
+16:32:47.519 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:32:47.540 - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at com.epicode.esercizi.GodfatherPizza.GodfatherPizzaApplication.main(GodfatherPizzaApplication.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:79)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1365)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	... 24 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "1.5;"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:651)
+	at java.base/java.lang.Double.valueOf(Double.java:614)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:215)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:425)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:398)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	... 27 common frames omitted
+16:34:27.469 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 6136 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:34:27.472 - No active profile set, falling back to 1 default profile: "default"
+16:34:27.530 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:34:28.094 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
+16:34:28.107 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:34:28.129 - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ordineConfiguration': Unsatisfied dependency expressed through field 'costo_coperto': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at com.epicode.esercizi.GodfatherPizza.GodfatherPizzaApplication.main(GodfatherPizzaApplication.java:15)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Double'; For input string: "1.5;"
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:79)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1365)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	... 24 common frames omitted
+Caused by: java.lang.NumberFormatException: For input string: "1.5;"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:651)
+	at java.base/java.lang.Double.valueOf(Double.java:614)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:215)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:425)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:398)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	... 27 common frames omitted
+16:35:25.883 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 6151 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:35:25.886 - No active profile set, falling back to 1 default profile: "default"
+16:35:25.938 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:35:26.550 - LiveReload server is running on port 35729
+16:35:26.567 - Started GodfatherPizzaApplication in 1.124 seconds (process running for 1.647)
+16:35:43.990 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 6153 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:35:43.993 - No active profile set, falling back to 1 default profile: "default"
+16:35:44.050 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:35:44.672 - LiveReload server is running on port 35729
+16:35:44.689 - Started GodfatherPizzaApplication in 1.13 seconds (process running for 1.632)
+16:52:54.960 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 6393 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:52:54.963 - No active profile set, falling back to 1 default profile: "default"
+16:52:55.020 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:52:55.738 - LiveReload server is running on port 35729
+16:52:55.761 - Started GodfatherPizzaApplication in 1.29 seconds (process running for 1.878)
+16:54:05.163 - Starting GodfatherPizzaApplication using Java 17.0.7 with PID 6407 (/Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01/target/classes started by a in /Users/a/eclipse-workspace/Module Java-Es/Java - Spring/JW05-Day01)
+16:54:05.166 - No active profile set, falling back to 1 default profile: "default"
+16:54:05.222 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:54:05.851 - LiveReload server is running on port 35729
+16:54:05.868 - Started GodfatherPizzaApplication in 1.147 seconds (process running for 1.654)

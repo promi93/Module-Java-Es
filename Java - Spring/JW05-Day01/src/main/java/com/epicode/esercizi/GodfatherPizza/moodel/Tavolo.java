@@ -1,17 +1,24 @@
 package com.epicode.esercizi.GodfatherPizza.moodel;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
-@NoArgsConstructor
-@AllArgsConstructor
 @Data
+
 public class Tavolo {
 	
 	private int numeroTavolo;
 	private int numeroCoperti;
-	private boolean disponibilita = true;
+	private boolean disponibilita = false;
+	
+	
+	public Tavolo(int numeroTavolo, int numeroCoperti) {
+		super();
+		this.numeroTavolo = numeroTavolo;
+		this.numeroCoperti = numeroCoperti;
+		this.disponibilita = false;
+	}
 
 
+	
+	
 }
